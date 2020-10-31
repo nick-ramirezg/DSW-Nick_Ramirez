@@ -12,16 +12,13 @@ h3{
     text-align: justify;
 }
 
-h4{
-    color: #F47920;
-    font-size: 12px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 h6{
-    color: #005883;
+    color:#F47920;
     font-size: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: left;
+    text-align: center;
 }
 
+body{
+    background-color: rgba(0, 88, 131, 1);
+}
