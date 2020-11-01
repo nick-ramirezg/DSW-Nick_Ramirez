@@ -20,21 +20,21 @@ h6{
 }
 
 body{
-    background-color: rgba(0, 88, 131, 1);
+    background-color: rgb(255, 255, 255);
 }
 #menu, #menu ul{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 #menu{
     width: 90%;
     margin: 60px auto;
     border: 1px solid #F47920;
-    background-color: rgba(rgba(48, 1, 255, 0.425), alpha);
-    background: linear-gradient(#808080,#b3b3b3);
+    background-color: #005883;
+    background: linear-gradient(#005883,#b3b3b3);
     border-radius: 6px;
-    box-shadow: 0 2px 20x #cccccc;
+    box-shadow: 0 2px 2x #cccccc;
 }
 
 /*nicholas gallagher micro clearfix
