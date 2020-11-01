@@ -71,10 +71,11 @@ body{
     visibility: hidden;
     position: absolute;
     top: 30px;
+    left: 0;
     bottom: 0;
     z-index: 1;
     background: linear-gradient(#808080,#b3b3b3);
-    background-color: rgba(rgba(48, 1, 255, 0.425), alpha);
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.3);
     border-radius: 3px;
     transition: all 0,2% ease-in-out;
 }
