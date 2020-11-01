@@ -40,7 +40,7 @@ body{
 /*nicholas gallagher micro clearfix
 
 */
-#menu:before;
+#menu:before,
 #menu:after{
     content: "";
     display: block;
