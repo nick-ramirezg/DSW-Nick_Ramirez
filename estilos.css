@@ -46,7 +46,7 @@ body{
     display: block;
 }
 
-#menu::after{
+#menu:after{
     clear: both;
 }
 
@@ -64,6 +64,7 @@ body{
     text-transform: uppercase;
     font: bold 12px Times New Roman, Times, serif;
 }
+
 #menu ul{
     margin: 20px 0 0 0;
     opacity: 0;
