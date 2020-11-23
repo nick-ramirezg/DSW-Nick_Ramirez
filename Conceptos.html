@@ -1,61 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conceptos</title>
 
     <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="estilos-menu.css" type="text/css">
     <link rel="stylesheet" href="estilos.css" type="text/css">
+    <link rel="stylesheet" href="estilos-pie.css" type="text/css">
 </head>
     
 <body>
     <header>
-        <nav id="menu-principal">
-            <ul id="menu">
+        <nav class="navegacion">
+            <ul class="Menu">
                 <li><a href="inicio.html">Inicio</a></li>
                 <li><a href="Conceptos.html">Conceptos</a>
-                    <ul>
-                        <li><a href="Conceptos2.html">Conceptos2</a></li>
-                    </ul>
+                    <ul class="Submenu">
+                        <li><a href="Conceptos2.html">Conceptos 2</a></li>
+                    </ul>                
                 </li>
                 <li><a href="Recursos.html">Recursos</a>
-                    <ul>
-                        <li><a href="Audios.html">Audios</a></li>
-                        <li><a href="Videos.html">Videos</a></li>
-                    </ul>
+                    <ul class="Submenu">
+                        <li><a href="Recursos_2.html">Recursos 2</a></li>
+                    </ul>                
                 </li>
                 <li><a href="Autoevaluacion.html">Autoevaluacion</a>
-                    <ul>
+                    <ul class="Submenu">
                         <li><a href="Autoevaluacion_2.html">Autoevaluacion 2</a></li>
-                    </ul>
+                    </ul>                
                 </li>
                 <li><a href="Autor.html">Autor</a></li>
-    </nav>
-</header>
-    <section>
-       
-            <ul>
-             <li><Estrong> Responsive Web Design</Estrong></li>
-             <p>comprende una serie de técnicas y pautas de diseño que permiten adaptar sitios web al entorno de navegación del usuario, entendiendo como entorno de navegación la multiplicidad de dispositivos, móviles o no, por medio de los cuales los usuarios pueden acceder y navegar en internet</p>
-             GONZÁLEZ, D. d., & MARCOS, M. m. (2013). Responsive web design: diseño multidispositivo para mejorar la experiencia de usuario. Bid, (31), pag 2. Recupertado de http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=lls&AN=95008768&lang=es&site=eds-live</p>
-             <li><Estrong>Background</Estrong></li>
-             <p>atajo para definir los valores individuales del fondo en una única regla CSS. Se puede usar background para definir los valores de una o de todas las propiedades siguientes: background-attachment, color, image, position, repeat.</p>
-             Mozilla and individual contributors. (2020a, abril 23). background. Recuperado 1 de noviembre de 2020, de https://developer.mozilla.org/es/docs/Web/CSS/background#:%7E:text=La%20propiedad%20background%20es%20un,%2C%20image%20%2C%20position%20%2C%20repeat%20</p>
-             <li><strong>componentes estructura HTML5</strong></li>
-             <img src="imagenes/estructura-web.png" alt="estructura-web" height="600px" width="600px">
-             <p>Vinkula. (2015). Estructura web [imagen]. Recuperado de https://vinkula.com/blog/wp-content/uploads/2016/02/estructura-web.png</p>         
+                <li><a href="#">Actividad inicial</a>
+                    <ul class="Submenu">
+                        <li><a href="index.html">Pagina inicial</a></li>
+                        <li><a href="planning.html">Pagina inicial 2</a></li>
+                    </ul>                
+                </li>
             </ul>
-        
-         <div class="Video">
-             <iframe width="850" height="450" src="https://www.youtube.com/embed/nOjxVmN-obU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-             <p> Sitio web desde cero - Introducción / Preguntas frecuentes. (2018, 12 septiembre). [Archivo de vídeo]. Recuperado de https://www.youtube.com/watch?v=YwlCm641PrQ</p>
-        </div>
-         
-    </section>
-           
+        </nav>
+</header>
+<ul>
+    <li><Estrong> Responsive Web Design</Estrong></li>
+    
+    <p>p>comprende una serie de técnicas y pautas de diseño que permiten adaptar sitios web al entorno de navegación del usuario, entendiendo como entorno de navegación la multiplicidad de dispositivos, móviles o no, por medio de los cuales los usuarios pueden acceder y navegar en internet</p>
+    <p>GONZÁLEZ, D. d., & MARCOS, M. m. (2013). Responsive web design: diseño multidispositivo para mejorar la experiencia de usuario. Bid, (31), pag 2. Recupertado de http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=lls&AN=95008768&lang=es&site=eds-live</p>
+    
+    <li><Estrong>Background</Estrong></li>
+    <p>atajo para definir los valores individuales del fondo en una única regla CSS. Se puede usar background para definir los valores de una o de todas las propiedades siguientes: background-attachment, color, image, position, repeat.</p>
+    <p>Mozilla and individual contributors. (2020a, abril 23). background. Recuperado 1 de noviembre de 2020, de https://developer.mozilla.org/es/docs/Web/CSS/background#:%7E:text=La%20propiedad%20background%20es%20un,%2C%20image%20%2C%20position%20%2C%20repeat%20</p>
+    
+    <li><strong>componentes estructura HTML5</strong></li>
+    <center>
+        <img src="imagenes/estructura-web.png" alt="estructura-web" height="600px" width="600px">
+        <p>Vinkula. (2015). Estructura web [imagen]. Recuperado de https://vinkula.com/blog/wp-content/uploads/2016/02/estructura-web.png</p>
+    </center>
+             
+</ul>
+
+<div class="Video">
+    <center>
+        <iframe width="850" height="450" src="https://www.youtube.com/embed/nOjxVmN-obU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p> Sitio web desde cero - Introducción / Preguntas frecuentes. (2018, 12 septiembre). [Archivo de vídeo]. Recuperado de https://www.youtube.com/watch?v=YwlCm641PrQ</p>
+    </center>
+    
+</div>
+<div class="social-bar">
+    <a href="https://www.facebook.com/UniversidadUNAD" class="icon icon-facebook2" target="_blank"></a>
+    <a href="https://twitter.com/UniversidadUNAD" class="icon icon-twitter" target="_blank"></a>
+    <a href="https://www.youtube.com/c/universidadunadTvUnadVirtual" class="icon icon-youtube" target="_blank"></a>
+    <a href="https://www.instagram.com/universidadunad/" class="icon icon-instagram" target="_blank"></a>
+    <a href="https://www.linkedin.com/school/universidadunad/?challengeId=AQELR_OyMq52rAAAAXWF3OBCI4kyA4SM44ogIne82FQCCZvZdQRyZPvvM66-j1KI1Ch44V71Ehm_m6uSraCtdlDJLxPq_2QIgQ&submissionId=9ff6457f-d581-4316-b486-8d169810bb46" class="icon icon-linkedin2" target="_blank"></a>
+</div>       
 </body>
-<Footer>
+<Footer class="Pie">
     <center>
         Derechos Reservados 2020</p>
         Ingenieria de sistemas</p>

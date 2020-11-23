@@ -1,39 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nick Alan Ramirez Guzman">
+    <meta name="Descrition" content="Actividad Diseño de sitios Web en HTML5 - Fase 1,2,3 y 4 de la UNAD">
     <title>Inicio</title>
     <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="estilos-menu.css" type="text/css">
     <link rel="stylesheet" href="estilos.css" type="text/css">
+    <link rel="stylesheet" href="estilos-pie.css" type="text/css">  
     
     <center><img src="Imagenes_inicio/Logo_unad.png" alt="Logo" height="130px" width="170px" target="_blank"></center>   
 
 </head>
 <body>
-    <header>
-        <nav id="menu-principal">
-            <ul id="menu">
+    <header>     
+        <nav class="navegacion">
+            <ul class="Menu">
                 <li><a href="inicio.html">Inicio</a></li>
                 <li><a href="Conceptos.html">Conceptos</a>
-                    <ul>
-                        <li><a href="Conceptos2.html">Conceptos2</a></li>
-                    </ul>
+                    <ul class="Submenu">
+                        <li><a href="Conceptos2.html">Conceptos 2</a></li>
+                    </ul>                
                 </li>
                 <li><a href="Recursos.html">Recursos</a>
-                    <ul>
-                        <li><a href="Audios.html">Audios</a></li>
-                        <li><a href="Videos.html">Videos</a></li>
-                    </ul>
+                    <ul class="Submenu">
+                        <li><a href="Recursos_2.html">Recursos 2</a></li>
+                    </ul>                
                 </li>
                 <li><a href="Autoevaluacion.html">Autoevaluacion</a>
-                    <ul>
+                    <ul class="Submenu">
                         <li><a href="Autoevaluacion_2.html">Autoevaluacion 2</a></li>
-                    </ul>
+                    </ul>                
                 </li>
                 <li><a href="Autor.html">Autor</a></li>
+                <li><a href="#">Actividad inicial</a>
+                    <ul class="Submenu">
+                        <li><a href="index.html">Pagina inicial</a></li>
+                        <li><a href="planning.html">Pagina inicial 2</a></li>
+                    </ul>                
+                </li>
+            </ul>
         </nav>
-
+        
     </header>
     
     <aside>
@@ -66,7 +76,7 @@
         <a href="https://www.linkedin.com/school/universidadunad/?challengeId=AQELR_OyMq52rAAAAXWF3OBCI4kyA4SM44ogIne82FQCCZvZdQRyZPvvM66-j1KI1Ch44V71Ehm_m6uSraCtdlDJLxPq_2QIgQ&submissionId=9ff6457f-d581-4316-b486-8d169810bb46" class="icon icon-linkedin2" target="_blank"></a>
     </div>
 </body>
-<footer>
+<footer class="Pie">
     <article><h6>
         Derechos Reservados 2020</p>
         Ingenieria de sistemas</p></article>

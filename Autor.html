@@ -1,37 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autor</title>
 
     <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="estilos-menu.css" type="text/css">
     <link rel="stylesheet" href="estilos.css" type="text/css">
-
-    <nav id="menu-principal">
-        <ul id="menu">
-            <li><a href="inicio.html">Inicio</a></li>
-            <li><a href="Conceptos.html">Conceptos</a>
-                <ul>
-                    <li><a href="Conceptos2.html">Conceptos2</a></li>
-                </ul>
-            </li>
-            <li><a href="Recursos.html">Recursos</a>
-                <ul>
-                    <li><a href="Audios.html">Audios</a></li>
-                    <li><a href="Videos.html">Videos</a></li>
-                </ul>
-            </li>
-            <li><a href="Autoevaluacion.html">Autoevaluacion</a>
-                <ul>
-                    <li><a href="Autoevaluacion_2.html">Autoevaluacion 2</a></li>
-                </ul>
-            </li>
-            <li><a href="Autor.html">Autor</a></li>
-    </nav>
-
+    <link rel="stylesheet" href="estilos-pie.css" type="text/css">
 </head>
 <body>
+    <header>
+        <nav class="navegacion">
+            <ul class="Menu">
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="Conceptos.html">Conceptos</a>
+                    <ul class="Submenu">
+                        <li><a href="Conceptos2.html">Conceptos 2</a></li>
+                    </ul>                
+                </li>
+                <li><a href="Recursos.html">Recursos</a>
+                    <ul class="Submenu">
+                        <li><a href="Recursos_2.html">Recursos 2</a></li>
+                    </ul>                
+                </li>
+                <li><a href="Autoevaluacion.html">Autoevaluacion</a>
+                    <ul class="Submenu">
+                        <li><a href="Autoevaluacion_2.html">Autoevaluacion 2</a></li>
+                    </ul>                
+                </li>
+                <li><a href="Autor.html">Autor</a></li>
+                <li><a href="#">Actividad inicial</a>
+                    <ul class="Submenu">
+                        <li><a href="index.html">Pagina inicial</a></li>
+                        <li><a href="planning.html">Pagina inicial 2</a></li>
+                    </ul>                
+                </li>
+            </ul>
+        </nav>
+    </header>
+
     <h2>Nombre:</h2><h3>Nick Alan Ramirez Guzman</h3>
     <h2>Código:</h2><h3>1.059.911.747</h3>
     <h2>Programa:</h2><h3>Ingenieria de Sistemas</h3>
@@ -40,9 +49,15 @@
     <center>
         <img src="Imagenes/foto.jpg" alt="Fotografia" width="200px" height="250px">
     </center>
-        
+    <div class="social-bar">
+        <a href="https://www.facebook.com/UniversidadUNAD" class="icon icon-facebook2" target="_blank"></a>
+        <a href="https://twitter.com/UniversidadUNAD" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://www.youtube.com/c/universidadunadTvUnadVirtual" class="icon icon-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/universidadunad/" class="icon icon-instagram" target="_blank"></a>
+        <a href="https://www.linkedin.com/school/universidadunad/?challengeId=AQELR_OyMq52rAAAAXWF3OBCI4kyA4SM44ogIne82FQCCZvZdQRyZPvvM66-j1KI1Ch44V71Ehm_m6uSraCtdlDJLxPq_2QIgQ&submissionId=9ff6457f-d581-4316-b486-8d169810bb46" class="icon icon-linkedin2" target="_blank"></a>
+    </div>    
 </body>
-<footer>
+<footer class="Pie">
     
     <div>
         <img src="Imagenes_inicio/Calidad.png" alt="Logo_Calidad" width="100px" height="100px">
