@@ -22,9 +22,16 @@ h3{
 
 h6{
     color:#F47920;
-    font-size: 10px;
+    font-size: 12px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+}
+
+p{
+    color: #005883;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    text-align: justify;
 }
 
 body{
